@@ -4,8 +4,10 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { useState } from "react";
 
 const RecentProjects = () => {
+  const [isHovered, setIsHovered] = useState(false);
   return (
     <div className="py-20 w-full">
       <h1 className="heading">
@@ -34,11 +36,17 @@ const RecentProjects = () => {
               </div>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className={`lg:text-xl lg:font-normal font-light text-sm ${
+                  isHovered ? "" : "line-clamp-4"
+                }`}
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
+                  height: "auto",
+                  transition: "all 0.3s ease-in-out",
                 }}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
               >
                 {item.des}
               </p>

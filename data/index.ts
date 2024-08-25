@@ -72,10 +72,10 @@ export const projects = [
   {
     id: 1,
     title: "Carepulse (Healthcare)",
-    des: "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.",
+    des: "A healthcare patient management application that allows patients to easily register, book and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, canceling appointments, along with SMS notifications, all built using Next.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
-    link: "https://github.com/godinhorafa/carepulse",
+    link: "https://carepulse-healthcare-next.vercel.app/",
   },
 ];
 
