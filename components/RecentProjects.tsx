@@ -9,7 +9,7 @@ import { useState } from "react";
 const RecentProjects = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <div className="py-20 w-full">
+    <div className="py-20 w-full" id="projects">
       <h1 className="heading">
         <span className="text-purple ml-2 mr-2">Projetos</span>
         recentes
