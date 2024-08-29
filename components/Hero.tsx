@@ -39,7 +39,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Olá! Me chamo Rafaella, sou uma desenvolvedora frontend com base no
+            Olá! Me chamo Rafaella, sou uma desenvolvedora fullstack com base no
             Rio de Janeiro.
           </p>
 
