@@ -91,32 +91,32 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Desenvolvedor Frontend",
-    desc: "Responsável pelo desenvolvimento frontend de uma plataforma avançada de gestão de pagamentos de pedágio, definindo arquitetura, tecnologias e ferramentas para um site moderno e eficiente.",
+    title: "Desenvolvedor Full Stack - Fadami",
+    desc: "Responsável pelo desenvolvimento frontend de uma plataforma avançada de gestão de pagamentos de pedágio, definindo arquitetura, tecnologias e ferramentas para um site moderno e eficiente. \n\n Foco na integração de sistemas de pagamento e na automação de cobranças de pedágio, permitindo aos usuários cadastrarem cartões de crédito para pagamentos automáticos e gerenciar débitos em tempo real.",
     className: "md:col-span-2",
   },
   {
     id: 2,
     title: "Desenvolvedor Freelancer",
-    desc: "Liderança no design e implementação de interface de usuário utilizando a stack MERN e Material UI.",
+    desc: "Desenvolvimento de aplicações web utilizando PHP, Laravel, Livewire e JavaScript. \n\n Integro e manipulo bancos de dados SQLite e Postgres, focando na otimização de desempenho e reforçando as práticas de segurança em todas as camadas da aplicação. \n\nColaboração com clientes para definir requisitos e entregar soluções personalizadas, otimizando tempo e recursos.",
     className: "md:col-span-2",
   },
   {
     id: 3,
-    title: "Analista de Desenvolvimento",
-    desc: "Liderança no desenvolvimento e manutenção do portal de vendas, com foco especial na segurança da informação, acessibilidade e performance. Implementei soluções inovadoras centradas na eficácia, contribuindo para uma experiência de usuário aprimorada e para a integridade do sistema em um ambiente de alta demanda.",
+    title: "Analista de Desenvolvimento - Oi Fibra",
+    desc: "Desempenhei papel fundamental no desenvolvimento e otimização do portal de vendas Oi Fibra (www.oi.com.br/fibra), uma das plataformas de telecomunicações mais importantes do Brasil. \n\n Fui responsável por implementar soluções inovadoras focadas em UX, segurança e performance, atendendo a milhares de acessos diários. Meu trabalho contribuiu diretamente para a expansão da base de clientes da Oi em todo o território nacional, impactando positivamente a eficiência operacional e a satisfação do cliente em escala nacional.",
     className: "md:col-span-2",
   },
   {
     id: 4,
-    title: "Programador de Sistemas",
-    desc: "Desenvolvi formulários de pesquisa e extensão, integrando eficientemente sistemas de gerenciamento de helpdesk. Implementei sistemas de controle robustos para funcionários e alunos, facilitando o gerenciamento de recursos e melhorando a eficiência operacional.",
+    title: "Programador de Sistemas - UNIFOA",
+    desc: "Desenvolvi formulários de pesquisa e extensão, integrando eficientemente sistemas de gerenciamento de helpdesk para otimizar a comunicação entre usuários e a equipe de suporte. Essa integração resultou em maior agilidade no atendimento de chamados e melhor rastreamento de problemas. \n\n Implementei sistemas de controle robustos para funcionários e alunos, facilitando o gerenciamento de permissões, acessos e recursos administrativos, além de melhorar significativamente a eficiência operacional em múltiplos departamentos.",
     className: "md:col-span-2",
   },
   {
     id: 5,
     title: "Estagiário de TI",
-    desc: "Suporte técnico para alunos e professores, resolvendo problemas de acesso ao site e auxiliando em questões relacionadas a bolsas de estudo.",
+    desc: "Ofereci assistência direta a alunos, ex-alunos, professores e funcionários em questões ligadas a sistemas acadêmicos, como bolsas de estudo, consulta e lançamento de notas, garantindo a continuidade das operações e o bom funcionamento dos processos administrativos e acadêmicos. \n\n Atuei na resolução de chamados técnicos, realizando diagnósticos e propondo soluções eficazes para otimizar a experiência dos usuários com os sistemas institucionais.",
     className: "md:col-span-2",
   },
 ];

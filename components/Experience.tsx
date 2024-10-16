@@ -37,7 +37,11 @@ const Experience = () => {
                   {card.title}
                 </h1>
                 <p className="text-start text-white-100 mt-3 font-semibold">
-                  {card.desc}
+                  {card.desc.split("\n\n").map((paragraph, index) => (
+                    <p key={index} className="mt-2">
+                      {paragraph}
+                    </p>
+                  ))}
                 </p>
               </div>
             </div>
