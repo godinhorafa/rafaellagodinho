@@ -17,7 +17,7 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] min-h-[500px]"
             key={item.id}
           >
             <PinContainer href="https://github.com/godinhorafa">
@@ -36,7 +36,7 @@ const RecentProjects = () => {
               </div>
 
               <p
-                className={`lg:text-xl lg:font-normal font-light text-sm ${
+                className={`lg:text-xl lg:font-normal font-light text-sm min-h-[112px] ${
                   isHovered ? "" : "line-clamp-4"
                 }`}
                 style={{

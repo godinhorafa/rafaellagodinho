@@ -77,6 +77,15 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://carepulse-healthcare-next.vercel.app/",
   },
+  {
+    id: 2,
+    title:
+      "Laravel 11 + React Full Stack App with Inertia - Project Management App",
+    des: "A simple project management application using Laravel 11 and React.",
+    img: "/p2.svg",
+    iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
+    link: "https://github.com/godinhorafa",
+  },
 ];
 
 export const workExperience = [
