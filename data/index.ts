@@ -81,7 +81,7 @@ export const projects = [
     id: 2,
     title:
       "Laravel 11 + React Full Stack App with Inertia - Project Management App",
-    des: "Uma aplicação simples de gerenciamento de projetos, construída utilizando Laravel 11 no backend e React no frontend. A plataforma permite que os usuários criem e gerenciem projetos, acompanhem o progresso de tarefas e colaborem com membros da equipe de forma eficiente. O sistema inclui funcionalidades como autenticação de usuários, criação de tarefas, atribuição de responsabilidades, monitoramento de prazos e relatórios de progresso, oferecendo uma solução completa para o controle de projetos em ambientes colaborativos.",
+    des: "Uma aplicação simples de gerenciamento de projetos, construída utilizando Laravel 11 no backend e React no frontend. A plataforma permite que os usuários criem e gerenciem projetos. O sistema inclui funcionalidades como autenticação de usuários, criação de tarefas, oferecendo uma solução completa para o controle de projetos em ambientes colaborativos.",
     img: "/p2.svg",
     iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
     link: "https://github.com/godinhorafa",
