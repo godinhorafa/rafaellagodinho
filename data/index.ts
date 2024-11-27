@@ -86,6 +86,30 @@ export const projects = [
     iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
     link: "https://github.com/godinhorafa",
   },
+  // {
+  //   id: 3,
+  //   title: "API de Transações",
+  //   des: "Uma API RESTful para gerenciamento de transações financeiras construída com Node.js, Fastify e Knex.",
+  //   img: "/p2.svg",
+  //   iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
+  //   link: "https://github.com/godinhorafa/rest-api-fastify",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Book Review Laravel App",
+  //   des: "This project is a book review application developed using PHP with the Laravel framework and containerized using Docker. The goal is to provide a platform where users can review books, see the most popular and highest-rated books, and interact with the features of a book review system.",
+  //   img: "/p2.svg",
+  //   iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
+  //   link: "https://github.com/godinhorafa/book-review-laravel",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Sistema de Gerenciamento de Viagens - Golang",
+  //   des: "Este é um sistema de gerenciamento de viagens desenvolvido em Go, que permite criar e gerenciar viagens em grupo, incluindo participantes, atividades e links relacionados.",
+  //   img: "/p2.svg",
+  //   iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
+  //   link: "https://github.com/godinhorafa/api-travel-golang",
+  // },
 ];
 
 export const workExperience = [

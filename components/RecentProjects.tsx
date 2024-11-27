@@ -72,7 +72,7 @@ const RecentProjects = () => {
                     target="_blank"
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                   >
-                    Vercel Link
+                    Link
                   </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
