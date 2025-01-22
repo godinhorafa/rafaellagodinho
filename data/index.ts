@@ -77,14 +77,22 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://carepulse-healthcare-next.vercel.app/",
   },
+  //{
+  //  id: 2,
+  //  title:
+  //    "Laravel 11 + React Full Stack App with Inertia - Project Management App",
+  //  des: "Uma aplicação simples de gerenciamento de projetos, construída utilizando Laravel 11 no backend e React no frontend. A plataforma permite que os usuários criem e gerenciem projetos. O sistema inclui funcionalidades como autenticação de usuários, criação de tarefas, oferecendo uma solução completa para o controle de projetos em ambientes colaborativos.",
+  //  img: "/p2.svg",
+  //  iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
+  //  link: "https://github.com/godinhorafa",
+  //},
   {
     id: 2,
-    title:
-      "Laravel 11 + React Full Stack App with Inertia - Project Management App",
-    des: "Uma aplicação simples de gerenciamento de projetos, construída utilizando Laravel 11 no backend e React no frontend. A plataforma permite que os usuários criem e gerenciem projetos. O sistema inclui funcionalidades como autenticação de usuários, criação de tarefas, oferecendo uma solução completa para o controle de projetos em ambientes colaborativos.",
-    img: "/p2.svg",
-    iconLists: ["/php.svg", "/laravel.svg", "/re.svg", "/js.svg"],
-    link: "https://github.com/godinhorafa",
+    title: "University Library Management System",
+    des: "Um sistema moderno de gerenciamento de biblioteca full-stack construído com Next.js 15, TypeScript e PostgreSQL. Este sistema oferece uma experiência sem interrupções tanto para estudantes quanto para administradores, permitindo o gerenciamento eficiente dos recursos da biblioteca.",
+    img: "/bookwise.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://university-library-prmoz7pnc.vercel.app/",
   },
   // {
   //   id: 3,
