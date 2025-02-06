@@ -94,6 +94,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
     link: "https://university-library-prmoz7pnc.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Contracts Dashboard",
+    des: "Uma aplicação moderna e responsiva para gestão de contratos, construída com React, TypeScript e Vite. O sistema oferece uma solução completa para o gerenciamento do ciclo de vida de contratos com análises em tempo real e visualização de dados.",
+    img: "/dashboard.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://contracts-dashboard-theta.vercel.app/",
+  },
   // {
   //   id: 3,
   //   title: "API de Transações",
