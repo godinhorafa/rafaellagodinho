@@ -132,25 +132,25 @@ export const workExperience = [
   {
     id: 1,
     title: "Desenvolvedor Full Stack - Fadami",
-    desc: "Responsável pelo desenvolvimento frontend de uma plataforma avançada de gestão de pagamentos de pedágio, definindo arquitetura, tecnologias e ferramentas para um site moderno e eficiente. \n\n Foco na integração de sistemas de pagamento e na automação de cobranças de pedágio, permitindo aos usuários cadastrarem cartões de crédito para pagamentos automáticos e gerenciar débitos em tempo real.",
+    desc: "Liderei o desenvolvimento full stack de uma plataforma inovadora de gestão de débitos de pedágio, incluindo portal público para pagamentos e backoffice administrativo com dashboards analíticos. \n\n Implementei soluções técnicas robustas para um website moderno, responsivo e de alta performance e dashboards interativos em React com visualizações gráficas para análise de dados de tráfego e receita, permitindo monitoramento em tempo real de métricas de negócio. \n\n Desenvolvi arquitetura de microserviços em Node.js e implementei APIs RESTful escaláveis, suportando milhares de consultas diárias e integrando sistemas de pagamento via cartão de crédito e PIX, além de middlewares robustos para autenticação e processamento de dados.",
     className: "md:col-span-2",
   },
   {
     id: 2,
     title: "Desenvolvedor Freelancer",
-    desc: "Desenvolvimento de aplicações web utilizando PHP, Laravel, Livewire e JavaScript. \n\n Integro e manipulo bancos de dados SQLite e Postgres, focando na otimização de desempenho e reforçando as práticas de segurança em todas as camadas da aplicação. \n\nColaboração com clientes para definir requisitos e entregar soluções personalizadas, otimizando tempo e recursos.",
+    desc: "Arquitetei e desenvolvi plataformas de e-commerce completas, implementando desde o carrinho de compras até sistemas de pagamento, resultando em experiências de compra fluidas e seguras para os usuários finais. \n\n Liderei o desenvolvimento de landing pages otimizadas para conversão, utilizando VueJs e Livewire, juntamente com Laravel para criar interfaces responsivas e dinâmicas que elevaram as taxas de conversão dos clientes. \n\nColaborei diretamente com stakeholders na definição de requisitos e arquitetura de soluções, mantendo projetos alinhados com objetivos de negócio e prazos estabelecidos.",
     className: "md:col-span-2",
   },
   {
     id: 3,
     title: "Analista de Desenvolvimento - Oi Fibra",
-    desc: "Desempenhei papel fundamental no desenvolvimento e otimização do portal de vendas Oi Fibra (www.oi.com.br/fibra), uma das plataformas de telecomunicações mais importantes do Brasil. \n\n Fui responsável por implementar soluções inovadoras focadas em UX, segurança e performance, atendendo a milhares de acessos diários. Meu trabalho contribuiu diretamente para a expansão da base de clientes da Oi em todo o território nacional, impactando positivamente a eficiência operacional e a satisfação do cliente em escala nacional.",
+    desc: "Desempenhei papel fundamental no desenvolvimento e otimização do portal de vendas Oi Fibra (www.oi.com.br/fibra), uma das plataformas de telecomunicações mais importantes do Brasil. \n\n Desenvolvi interfaces responsivas e componentes reutilizáveis com TypeScript, ReactJS e NextJS, garantindo consistência visual e alta performance. Adotei o Design System do projeto, assegurando padronização de estilo e agilidade no desenvolvimento de novas funcionalidades. \n\n Criei middlewares em Node.js para processamento de dados e cache, além de integrações via REST APIs para comunicação com diversos serviços, melhorando significativamente a performance do sistema.",
     className: "md:col-span-2",
   },
   {
     id: 4,
     title: "Programador de Sistemas - UNIFOA",
-    desc: "Desenvolvi formulários de pesquisa e extensão, integrando eficientemente sistemas de gerenciamento de helpdesk para otimizar a comunicação entre usuários e a equipe de suporte. Essa integração resultou em maior agilidade no atendimento de chamados e melhor rastreamento de problemas. \n\n Implementei sistemas de controle robustos para funcionários e alunos, facilitando o gerenciamento de permissões, acessos e recursos administrativos, além de melhorar significativamente a eficiência operacional em múltiplos departamentos.",
+    desc: "Desenvolvi formulários de pesquisa e extensão utilizando PHP e C# no backend e JavaScript, HTML e CSS no frontend, integrando sistemas de gerenciamento de helpdesk para otimizar a comunicação entre usuários e equipe de suporte. \n\n Implementei sistemas de controle robustos para funcionários e alunos, facilitando o gerenciamento de permissões, acessos e recursos administrativos, além de melhorar significativamente a eficiência operacional em múltiplos departamentos. \n\n Participei de todas as fases do ciclo de vida dos sistemas, desde o levantamento de requisitos até a implementação, com uma abordagem colaborativa junto a outras equipes técnicas e de negócios.",
     className: "md:col-span-2",
   },
   {

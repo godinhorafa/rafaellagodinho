@@ -4,7 +4,7 @@ import { Button } from "./ui/MovingBorders";
 
 const handleDownloadPDF = () => {
   const link = document.createElement("a");
-  link.href = "/curriculo_rafaellagodinho_2025.pdf";
+  link.href = "/curriculo_rafaellagodinho_fullstack.pdf";
   link.download = "Rafaella_Godinho_Curriculo.pdf";
   document.body.appendChild(link);
   link.click();
