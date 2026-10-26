@@ -11,8 +11,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20 w-full" id="projects">
       <h1 className="heading">
-        <span className="text-purple ml-2 mr-2">Projetos</span>
-        recentes
+        Recent <span className="text-purple ml-3">projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -20,7 +19,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw] min-h-[500px]"
             key={item.id}
           >
-            <PinContainer href="https://github.com/godinhorafa">
+            <PinContainer title={item.link.replace("https://", "")} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -30,10 +29,14 @@ const RecentProjects = () => {
                 </div>
                 <img
                   src={item.img}
-                  alt="cover"
+                  alt={item.title}
                   className="z-10 absolute bottom-0"
                 />
               </div>
+
+              <h2 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+                {item.title}
+              </h2>
 
               <p
                 className={`lg:text-xl lg:font-normal font-light text-sm min-h-[112px] ${
@@ -61,7 +64,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
                     >
-                      <img src={icon} alt="icon5" className="p-2" />
+                      <img src={icon} alt="" className="p-2" />
                     </div>
                   ))}
                 </div>
@@ -72,7 +75,7 @@ const RecentProjects = () => {
                     target="_blank"
                     className="flex lg:text-xl md:text-xs text-sm text-purple"
                   >
-                    Link
+                    {item.link.includes("github.com") ? "View code" : "Live demo"}
                   </a>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
