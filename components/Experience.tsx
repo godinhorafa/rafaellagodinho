@@ -4,8 +4,8 @@ import { Button } from "./ui/MovingBorders";
 
 const handleDownloadPDF = () => {
   const link = document.createElement("a");
-  link.href = "/curriculo_rafaellagodinho_fullstack.pdf";
-  link.download = "Rafaella_Godinho_Curriculo.pdf";
+  link.href = "/Rafaella_Godinho_CV.pdf";
+  link.download = "Rafaella_Godinho_CV.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -15,7 +15,7 @@ const Experience = () => {
   return (
     <div className="py-20 w-full" id="experience">
       <h1 className="heading">
-        <span className="text-purple">Experiência</span>
+        Work <span className="text-purple ml-3">experience</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 mb-4">
         {workExperience.map((card) => (
@@ -36,6 +36,9 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
+                <p className="text-start text-sm text-purple mt-1">
+                  {card.period}
+                </p>
                 <p className="text-start text-white-100 mt-3 font-semibold">
                   {card.desc.split("\n\n").map((paragraph, index) => (
                     <p key={index} className="mt-2">
@@ -49,12 +52,12 @@ const Experience = () => {
         ))}
       </div>
       <div className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl mt-14">
-        Para mais detalhes, você pode baixar meu currículo ao clicar{" "}
+        Want the full picture?{" "}
         <span
           className="text-purple cursor-pointer"
           onClick={handleDownloadPDF}
         >
-          aqui
+          Download my CV
         </span>
         .
       </div>

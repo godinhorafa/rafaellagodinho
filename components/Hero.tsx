@@ -31,21 +31,22 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Senior PHP Full-Stack Engineer
           </p>
           <TextGenerateEffect
-            words="Desenvolvendo Experiências de Usuário Sem Complicações"
+            words="Modernizing the systems people rely on every day"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Olá! Me chamo Rafaella, sou uma desenvolvedora fullstack com base no
-            Rio de Janeiro.
+            Hi! I&apos;m Rafaella, a full-stack engineer with 5+ years in PHP,
+            Laravel, Node.js and React, based in Rio de Janeiro and working
+            remotely.
           </p>
 
           <a href="#experience">
             <MagicButton
-              title="Veja meu portifólio"
+              title="See my work"
               icon={<FaLocationArrow />}
               position="right"
             />
